@@ -5,7 +5,10 @@ export default function addOption(existingPoll, optionName) {
     newArr.push(existingPoll[i]);
   }
 
-  newArr.push({ name: optionName, votes: 0 });
+  newArr.push({
+    name: optionName,
+    votes: 0
+  });
 
   return newArr;
 }
