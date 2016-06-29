@@ -9,4 +9,5 @@ export default function percentVotes(options, index){
 
   return calculatePercent(x, y);
 
+
 }
